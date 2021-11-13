@@ -16,7 +16,7 @@ public class addTip extends AppCompatActivity implements View.OnClickListener{
 
 
     double getTip(double youOwe, int percent){
-        return (percent / youOwe) * 100;
+        return Math.round(((percent / youOwe) * 100);
     }
 
 
