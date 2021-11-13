@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/button10"
+        android:id="@+id/_20percent"
         android:layout_width="65dp"
         android:layout_height="50dp"
         android:layout_marginEnd="44dp"
@@ -16,7 +16,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button9"
+        android:id="@+id/_15percent"
         android:layout_width="72dp"
         android:layout_height="50dp"
         android:layout_marginEnd="128dp"
@@ -26,7 +26,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/_10percent"
         android:layout_width="66dp"
         android:layout_height="49dp"
         android:layout_marginEnd="216dp"
@@ -95,7 +95,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button12"
+        android:id="@+id/_5percent"
         android:layout_width="148dp"
         android:layout_height="49dp"
         android:layout_marginEnd="132dp"

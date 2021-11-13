@@ -17,7 +17,7 @@
         <activity android:name=".scan_Bill"></activity>
         <activity android:name=".addFriends"></activity>
         <activity android:name=".scanConfirmation"></activity>
-
+        <activity android:name=".safetyScreen"></activity>
 
         <activity
             android:name=".MainActivity"
