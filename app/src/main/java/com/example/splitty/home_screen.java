@@ -35,5 +35,10 @@ public class home_screen extends AppCompatActivity {
             Intent intent = new Intent(this, scan_Bill.class);
             startActivity(intent);
         });
+
+        addFriendsBtn.setOnClickListener(p->{
+            Intent intent = new Intent(this, addFriends.class);
+            startActivity(intent);
+        });
     }
 }

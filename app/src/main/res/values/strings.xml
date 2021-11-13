@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Splitty</string>
+    <string name="create_group">Create Group</string>
 </resources>
