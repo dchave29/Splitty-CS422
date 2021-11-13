@@ -5,6 +5,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
+    <Button
+        android:id="@+id/scan_bill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="356dp"
+        android:text="+ Scan Bill"
+        android:textAllCaps="false"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/welcomeTxt"
         android:layout_width="wrap_content"
@@ -21,9 +34,9 @@
         android:id="@+id/add_bill_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginBottom="360dp"
-        android:text="+ Add Bill"
+        android:layout_marginStart="160dp"
+        android:layout_marginBottom="356dp"
+        android:text="+Manually Add Bill"
         android:textAllCaps="false"
         android:textSize="20sp"
         android:textStyle="bold"

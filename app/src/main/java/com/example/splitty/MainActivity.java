@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 
@@ -18,7 +19,8 @@ public class MainActivity extends AppCompatActivity {
 
         // listeners for buttons
         signInBtn.setOnClickListener(p->{
-
+            Intent intent = new Intent(this, home_screen.class);
+            startActivity(intent);
         });
 
         signUpBtn.setOnClickListener(p ->{
