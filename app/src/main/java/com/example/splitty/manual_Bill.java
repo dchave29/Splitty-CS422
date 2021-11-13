@@ -52,6 +52,7 @@ public class manual_Bill extends AppCompatActivity {
 
             checkInput(maxCheck,taxCheck,subCheck,totCheck);
             getSoloAmount();
+            Toast.makeText(this, "You owe: "+ soloPay, Toast.LENGTH_LONG).show();
             //Intent intent = new Intent(this, home_screen.class);
             //startActivity(intent);
         });
