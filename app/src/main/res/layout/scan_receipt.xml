@@ -63,7 +63,7 @@
         app:srcCompat="@drawable/camera" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/scanNext"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="NEXT"

@@ -3,8 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/activity_main.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/choose_bill_enter.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/create_group_scene.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/manual_bill_enter.xml" value="0.2957427536231884" />
         <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/scan_receipt.xml" value="0.20520833333333333" />
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/scan_total_num_people.xml" value="0.2957427536231884" />
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/sign_up_scene.xml" value="0.2957427536231884" />
       </map>
     </option>
   </component>

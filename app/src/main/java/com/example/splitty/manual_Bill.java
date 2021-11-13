@@ -24,5 +24,6 @@ public class manual_Bill extends AppCompatActivity {
         TextView taxAmount = findViewById(R.id.taxAmountInput);
         TextView subAmount = findViewById(R.id.subTotalInput);
         TextView totAmount = findViewById(R.id.totalAmountInput);
+
     }
 }
