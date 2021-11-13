@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,8 +20,18 @@ public class safetyScreen extends AppCompatActivity {
         Intent intent = getIntent();
         String easyPuzzle = intent.getExtras().getString("namesToDisplay");
 
+        String numPeople = intent.getExtras().getString("numPeople");
+
         TextView allUsers = findViewById(R.id.textView8);
         allUsers.setText(easyPuzzle);
+
+
+        Button submit = findViewById(R.id.submit);
+        submit.setOnClickListener(s->{
+
+            Intent i = new Intent(this, addTip.class);
+            startActivity(i);
+        });
 
     }
 }

@@ -24,6 +24,32 @@
         android:layout_marginEnd="60dp"
         android:layout_marginBottom="468dp"
         android:text="TextView"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="189dp"
+        android:layout_height="44dp"
+        android:layout_marginEnd="112dp"
+        android:layout_marginBottom="268dp"
+        android:background="#00D108"
+        android:drawableTint="#4CAF50"
+        android:text="submit"
+        android:backgroundTint="#4CAF50"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:strokeColor="#4CAF50" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="189dp"
+        android:layout_height="45dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="196dp"
+        android:text="Cancel"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

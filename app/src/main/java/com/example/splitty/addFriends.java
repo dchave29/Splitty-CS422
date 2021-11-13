@@ -18,10 +18,11 @@ public class addFriends extends AppCompatActivity implements View.OnClickListene
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_group_scene);
 
-//        Intent intent = getIntent();
-//
-//        String numPeople = intent.getStringExtra("numPeople");
-//        int numPeeps = Integer.valueOf(numPeople);
+
+
+        Intent intent = getIntent();
+        String numPeople = intent.getExtras().getString("numPeople");
+        String _total = intent.getExtras().getString("soloAmount");
 
 
         CheckBox box1  = findViewById(R.id.checkBox1);
@@ -42,6 +43,8 @@ public class addFriends extends AppCompatActivity implements View.OnClickListene
         next.setOnClickListener(p->{
 
             Intent i = new Intent(this, safetyScreen.class);
+            i.putExtra("numPeople", numPeople);
+            i.putExtra("soloAmount", _total);
             i.putExtra("namesToDisplay", names);
             names = "";
             startActivity(i);
@@ -58,12 +61,7 @@ public class addFriends extends AppCompatActivity implements View.OnClickListene
         switch (v.getId()) {
             case R.id.checkBox1:
                 CheckBox box  = findViewById(R.id.checkBox1);
-                if(box.isChecked()){
                     names += String.valueOf(box.getText()) + " ,";
-                }
-                else{
-                    String replace = names.replace("", "");
-                }
                 break;
             case R.id.checkBox2:
                 CheckBox box2  = findViewById(R.id.checkBox2);

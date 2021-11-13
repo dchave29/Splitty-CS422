@@ -34,8 +34,8 @@ public class addTip extends AppCompatActivity implements View.OnClickListener{
         your_split = 123;
 
         //setting what you owe into the text field
-        TextView what_you_owe = findViewById(R.id.textView5);
-        what_you_owe.setText(your_split);
+//        TextView what_you_owe = findViewById(R.id.textView5);
+//        what_you_owe.setText(your_split);
 
 
 
