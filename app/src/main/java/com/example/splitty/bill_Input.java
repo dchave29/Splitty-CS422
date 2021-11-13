@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 /*******************************************************
  /                  bill_Input class
  / Will prompt users to scan or enter a bill manually
+ / ccc
  /*******************************************************/
 public class bill_Input extends AppCompatActivity {
 
