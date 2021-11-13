@@ -15,16 +15,15 @@ public class scan_Bill extends AppCompatActivity {
         setContentView(R.layout.scan_receipt);
 
         Button next1 = findViewById(R.id.scanNext);
+//        Button next2 = findViewById(R.id.button4);
+//        Button modify = findViewById(R.id.button3);
 
         next1.setOnClickListener(p->{
-//            Intent intent = new Intent(this, home_screen.class);
-//            startActivity(intent);
-            setContentView(R.layout.scan_total_num_people);
+            Intent intent = new Intent(this, scanConfirmation.class);
+            startActivity(intent);
+//            setContentView(R.layout.scan_total_num_people);
+
         });
 
-//        TextView totalPeople = findViewById(R.id.totalPeopleInput);
-//        TextView taxAmount = findViewById(R.id.taxAmountInput);
-//        TextView subAmount = findViewById(R.id.subTotalInput);
-//        TextView totAmount = findViewById(R.id.totalAmountInput);
     }
 }

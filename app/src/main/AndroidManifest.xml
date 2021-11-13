@@ -16,6 +16,7 @@
         <activity android:name=".signUP"></activity>
         <activity android:name=".scan_Bill"></activity>
         <activity android:name=".addFriends"></activity>
+        <activity android:name=".scanConfirmation"></activity>
 
 
         <activity
