@@ -19,8 +19,10 @@ public class safetyScreen extends AppCompatActivity {
 
         Intent intent = getIntent();
         String easyPuzzle = intent.getExtras().getString("namesToDisplay");
-
         String numPeople = intent.getExtras().getString("numPeople");
+
+
+
 
         TextView allUsers = findViewById(R.id.textView8);
         allUsers.setText(easyPuzzle);
@@ -30,6 +32,7 @@ public class safetyScreen extends AppCompatActivity {
         submit.setOnClickListener(s->{
 
             Intent i = new Intent(this, addTip.class);
+            i.putExtra("numPeople", numPeople);
             startActivity(i);
         });
 
