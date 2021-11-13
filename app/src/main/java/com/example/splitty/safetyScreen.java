@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -20,6 +21,16 @@ public class safetyScreen extends AppCompatActivity {
         Intent intent = getIntent();
         String easyPuzzle = intent.getExtras().getString("namesToDisplay");
         String numPeople = intent.getExtras().getString("numPeople");
+        String total = intent.getExtras().getString("soloAmount");
+
+//        Log.i("pog", total);
+//        Log.i("poggy", numPeople);
+
+
+//        int priceTotal = Integer.valueOf(total);
+//        int peopleNum = Integer.valueOf(numPeople);
+//
+//        int partialTotal = priceTotal/peopleNum;
 
 
 
@@ -32,7 +43,7 @@ public class safetyScreen extends AppCompatActivity {
         submit.setOnClickListener(s->{
 
             Intent i = new Intent(this, addTip.class);
-            i.putExtra("numPeople", numPeople);
+          //  i.putExtra("partialTotal", String.valueOf(partialTotal));
             startActivity(i);
         });
 

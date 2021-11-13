@@ -43,8 +43,8 @@ public class addFriends extends AppCompatActivity implements View.OnClickListene
         next.setOnClickListener(p->{
 
             Intent i = new Intent(this, safetyScreen.class);
-            i.putExtra("numPeople", numPeople);
-            i.putExtra("soloAmount", _total);
+//            i.putExtra("numPeople", numPeople);
+//            i.putExtra("soloAmount", _total);
             i.putExtra("namesToDisplay", names);
             names = "";
             startActivity(i);
