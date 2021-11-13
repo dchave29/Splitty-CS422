@@ -1,5 +1,6 @@
 package com.example.splitty;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.Button;
@@ -53,8 +54,10 @@ public class manual_Bill extends AppCompatActivity {
             checkInput(maxCheck,taxCheck,subCheck,totCheck);
             getSoloAmount();
             Toast.makeText(this, "You owe: "+ soloPay, Toast.LENGTH_LONG).show();
-            //Intent intent = new Intent(this, home_screen.class);
-            //startActivity(intent);
+            Intent intent = new Intent(this, addFriends.class);
+            intent.putExtra("manualPeopleNum", n);
+            intent.putExtra("manualSoloPay", soloPay);
+            startActivity(intent);
         });
     }
 
