@@ -99,7 +99,7 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/_5percent"
+        android:id="@+id/subButton"
         android:layout_width="148dp"
         android:layout_height="49dp"
         android:layout_marginEnd="132dp"
