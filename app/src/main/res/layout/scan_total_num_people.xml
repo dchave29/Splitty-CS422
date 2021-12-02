@@ -9,7 +9,7 @@
         android:id="@+id/button3"
         android:layout_width="119dp"
         android:layout_height="54dp"
-        android:layout_marginStart="208dp"
+        android:layout_marginStart="252dp"
         android:layout_marginBottom="428dp"
         android:backgroundTint="#3F51B5"
         android:text="Modify"
@@ -26,6 +26,7 @@
         android:inputType="numberDecimal"
         android:text="$2892.05"
         android:textSize="34sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
@@ -46,9 +47,10 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:layout_marginEnd="228dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="208dp"
         android:text="Is this the correct amount?"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/total_amount_btn2" />
 

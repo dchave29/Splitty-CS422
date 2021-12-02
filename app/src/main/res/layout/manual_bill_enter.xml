@@ -37,23 +37,11 @@
         android:layout_height="84dp"
         android:layout_marginStart="156dp"
         android:layout_marginBottom="284dp"
+        android:backgroundTint="#7269F8"
         android:text="Split Evenly"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
-
-    <Button
-        android:id="@+id/cust_spli_btn"
-        android:layout_width="110dp"
-        android:layout_height="88dp"
-        android:layout_marginEnd="144dp"
-        android:layout_marginBottom="108dp"
-        android:backgroundTint="#7269F8"
-        android:text="Custom Split"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

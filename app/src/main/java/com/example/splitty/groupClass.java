@@ -52,6 +52,8 @@ public class groupClass extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.group_list);
+        Button backBtn = findViewById(R.id.hs_Button);
+
         getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
         RecyclerView nameView = (RecyclerView) findViewById(R.id.rv_group);
 
@@ -75,6 +77,11 @@ public class groupClass extends AppCompatActivity {
         nameView.setAdapter(adapter);
 
         nameView.setLayoutManager(new GridLayoutManager(this, 1)); //use this line to see as a standard vertical list
+
+        backBtn.setOnClickListener(p->{
+            Intent intent = new Intent(this, home_screen.class);
+            startActivity(intent);
+        });
 
     }
 }
