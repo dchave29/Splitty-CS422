@@ -3,6 +3,7 @@ package com.example.splitty;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -22,6 +23,18 @@ public class confirmGroup extends AppCompatActivity {
         String grpTxt = makeList();
         groupList.setText(grpTxt);
 
+        Button back = findViewById(R.id.back_btn);
+        Button confirm = findViewById(R.id.back_btn);
+
+        back.setOnClickListener(s->{
+            Intent i = new Intent(this, addFriends.class);
+            startActivity(i);
+        });
+
+        confirm.setOnClickListener(s->{
+            Intent i = new Intent(this, home_screen.class);
+            startActivity(i);
+        });
     }
 
     public String makeList(){

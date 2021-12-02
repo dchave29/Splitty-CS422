@@ -9,8 +9,8 @@
         android:id="@+id/scan_bill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="4dp"
-        android:layout_marginBottom="356dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginBottom="340dp"
         android:text="+ Scan Bill"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -22,9 +22,9 @@
         android:id="@+id/welcomeTxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="105dp"
-        android:layout_marginTop="68dp"
-        android:text="Welcome"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="36dp"
+        android:text="Welcome to"
         android:textSize="48sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,8 +34,8 @@
         android:id="@+id/add_bill_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="160dp"
-        android:layout_marginBottom="356dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="276dp"
         android:text="+Manually Add Bill"
         android:textAllCaps="false"
         android:textSize="20sp"
@@ -47,24 +47,44 @@
         android:id="@+id/add_friends_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="192dp"
         android:text="+ Add Friends"
         android:textAllCaps="false"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
         android:id="@+id/group_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="200dp"
+        android:layout_marginStart="63dp"
+        android:layout_marginBottom="192dp"
         android:text="Groups"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="358dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/scan_bill"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/zsplogo" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="462dp"
+        android:layout_height="343dp"
+        android:layout_marginTop="41dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/add_friends_btn"
+        app:srcCompat="@drawable/zsptri" />
 </androidx.constraintlayout.widget.ConstraintLayout>
