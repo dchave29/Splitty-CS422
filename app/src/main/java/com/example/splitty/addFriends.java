@@ -40,6 +40,7 @@ public class addFriends extends AppCompatActivity {
 
         myContext = this;
 
+        //Testing
         //Define the listener with a lambda and access the name of the list item from the view
         RVClickListener listener = (view,position)->{
             Log.i("1pos", String.valueOf(position));
