@@ -6,48 +6,37 @@
     android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/tax_amount_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
-        android:layout_marginTop="44dp"
-        android:text="Enter Tax Total:"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/sub_total_btn" />
-
-    <TextView
         android:id="@+id/total_amount_btn"
         android:layout_width="228dp"
         android:layout_height="54dp"
-        android:layout_marginStart="28dp"
-        android:layout_marginTop="53dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="193dp"
         android:autoText="false"
         android:text="Enter Total Amount:"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tax_amount_btn" />
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <TextView
-        android:id="@+id/sub_total_btn"
-        android:layout_width="198dp"
-        android:layout_height="41dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="52dp"
-        android:text="Enter Sub Total:"
-        android:textSize="24sp"
+    <EditText
+        android:id="@+id/totalAmountInput"
+        android:layout_width="117dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="272dp"
+        android:layout_marginTop="184dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
 
     <Button
         android:id="@+id/split_even_btn"
         android:layout_width="114dp"
         android:layout_height="84dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginBottom="80dp"
+        android:layout_marginStart="156dp"
+        android:layout_marginBottom="284dp"
         android:text="Split Evenly"
         android:textSize="16sp"
         android:textStyle="bold"
@@ -58,77 +47,13 @@
         android:id="@+id/cust_spli_btn"
         android:layout_width="110dp"
         android:layout_height="88dp"
-        android:layout_marginEnd="44dp"
-        android:layout_marginBottom="76dp"
-        android:text="Custom Split"
+        android:layout_marginEnd="144dp"
+        android:layout_marginBottom="108dp"
         android:backgroundTint="#7269F8"
+        android:text="Custom Split"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
-
-    <EditText
-        android:id="@+id/subTotalInput"
-        android:layout_width="106dp"
-        android:layout_height="50dp"
-        android:layout_marginStart="256dp"
-        android:layout_marginTop="43dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <EditText
-        android:id="@+id/taxAmountInput"
-        android:layout_width="115dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="256dp"
-        android:layout_marginTop="35dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/subTotalInput"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <EditText
-        android:id="@+id/totalAmountInput"
-        android:layout_width="117dp"
-        android:layout_height="64dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="36dp"
-        android:ems="10"
-        android:inputType="numberDecimal"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/taxAmountInput"
-        tools:ignore="SpeakableTextPresentCheck" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="218dp"
-        android:layout_height="45dp"
-        android:layout_marginStart="44dp"
-        android:layout_marginTop="104dp"
-        android:text="Enter Total People:"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/totalPeopleInput"
-        android:layout_width="98dp"
-        android:layout_height="57dp"
-        android:layout_marginStart="264dp"
-        android:layout_marginTop="92dp"
-        android:ems="10"
-        android:inputType="number"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="SpeakableTextPresentCheck" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
