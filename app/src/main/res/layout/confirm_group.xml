@@ -45,6 +45,7 @@
         android:layout_marginStart="56dp"
         android:layout_marginTop="68dp"
         android:text="Do you want to create a group with:"
+        android:textColor="#2196F3"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintStart_toStartOf="parent"
