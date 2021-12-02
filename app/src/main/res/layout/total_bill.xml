@@ -21,8 +21,8 @@
         android:id="@+id/yourPrice"
         android:layout_width="172dp"
         android:layout_height="62dp"
-        android:layout_marginStart="108dp"
-        android:layout_marginBottom="460dp"
+        android:layout_marginStart="116dp"
+        android:layout_marginBottom="380dp"
         android:text="TextView"
         android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,6 +35,17 @@
         android:layout_marginStart="132dp"
         android:layout_marginBottom="248dp"
         android:text="Home Menu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="79dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginBottom="380dp"
+        android:text="$"
+        android:textSize="34sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
