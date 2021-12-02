@@ -33,7 +33,7 @@ public class confirmGroupToPay extends AppCompatActivity {
         });
 
         confirm.setOnClickListener(s->{
-            Intent i = new Intent(this, home_screen.class);
+            Intent i = new Intent(this, eachMemberPayment.class);
             startActivity(i);
         });
     }

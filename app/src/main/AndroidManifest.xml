@@ -22,6 +22,7 @@
         <activity android:name=".confirmGroup"></activity>
         <activity android:name=".addFriendsToPay"></activity>
         <activity android:name="confirmGroupToPay"></activity>
+        <activity android:name="eachMemberPayment"></activity>
 
 
 
