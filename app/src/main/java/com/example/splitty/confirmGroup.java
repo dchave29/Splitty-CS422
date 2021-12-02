@@ -24,7 +24,7 @@ public class confirmGroup extends AppCompatActivity {
         groupList.setText(grpTxt);
 
         Button back = findViewById(R.id.back_btn);
-        Button confirm = findViewById(R.id.back_btn);
+        Button confirm = findViewById(R.id.con_Btn);
 
         back.setOnClickListener(s->{
             Intent i = new Intent(this, addFriends.class);
