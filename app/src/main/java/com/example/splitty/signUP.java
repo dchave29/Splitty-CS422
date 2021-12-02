@@ -25,8 +25,9 @@ public class signUP extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sign_up_scene);
         getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
-
+        
         Button signupButton = findViewById(R.id.signupbtn);
+        EditText userText = (EditText) findViewById(R.id.editTextTextPersonName);
         Context context = getApplicationContext();
         CharSequence text = "Username or Password Incorrect";
 
@@ -34,7 +35,6 @@ public class signUP extends AppCompatActivity {
 
         final String usernameA = "user";
         final String passwordA = "password";
-
         signupButton.setOnClickListener(p ->{
             final EditText userEditText = (EditText) findViewById(R.id.editTextTextPersonName);
             final EditText passEditText = (EditText) findViewById(R.id.editTextTextPassword);
