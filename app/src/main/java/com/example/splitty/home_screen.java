@@ -41,6 +41,11 @@ public class home_screen extends AppCompatActivity {
             Intent intent = new Intent(this, addFriends.class);
             startActivity(intent);
         });
+
+        addGroupBtn.setOnClickListener(p->{
+            Intent intent = new Intent(this, groupClass.class);
+            startActivity(intent);
+        });
     }
 
 

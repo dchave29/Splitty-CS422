@@ -24,8 +24,7 @@
         <activity android:name="confirmGroupToPay"></activity>
         <activity android:name="eachMemberPayment"></activity>
 
-
-
+        <activity android:name=".groupClass"></activity>
 
 
         <activity
