@@ -60,10 +60,13 @@
         android:layout_height="48dp"
         android:layout_marginStart="140dp"
         android:layout_marginBottom="152dp"
+        android:backgroundTint="#00EEFF"
+        android:backgroundTintMode="add"
         android:text="Sign Up"
         android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:strokeColor="#00EEFF" />
 </androidx.constraintlayout.widget.ConstraintLayout>
