@@ -17,6 +17,7 @@ public class confirmGroup extends AppCompatActivity {
     public ArrayList<String> myList;
     DatabaseHelper mDatabaseHelper;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

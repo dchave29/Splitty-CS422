@@ -15,8 +15,12 @@ public class confirmGroupToPay extends AppCompatActivity {
 
     public ArrayList<String> myList;
 
+    public ArrayList<String> myList2;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.confirm_group);
 
@@ -27,6 +31,10 @@ public class confirmGroupToPay extends AppCompatActivity {
         Button back = findViewById(R.id.back_btn);
         Button confirm = findViewById(R.id.con_Btn);
 
+        myList = new ArrayList<>();
+        myList.addAll(getIntent().getStringArrayListExtra("list"));
+
+
         back.setOnClickListener(s->{
             Intent i = new Intent(this, addFriends.class);
             startActivity(i);
@@ -34,6 +42,7 @@ public class confirmGroupToPay extends AppCompatActivity {
 
         confirm.setOnClickListener(s->{
             Intent i = new Intent(this, eachMemberPayment.class);
+            i.putStringArrayListExtra("list", myList);
             startActivity(i);
         });
     }
