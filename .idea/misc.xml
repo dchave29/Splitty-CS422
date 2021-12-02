@@ -3,6 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/add_tip.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/confirm_group.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/create_group_scene.xml" value="0.28940217391304346" />
+        <entry key="..\:/Users/Jack/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/splitconfrmed.xml" value="0.28940217391304346" />
         <entry key="..\:/Users/dpcha/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/activity_main.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/dpcha/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/add_tip.xml" value="0.24003623188405798" />
         <entry key="..\:/Users/dpcha/AndroidStudioProjects/Splitty-CS422/app/src/main/res/layout/choose_bill_enter.xml" value="0.24003623188405798" />
@@ -28,16 +32,9 @@
         <entry key="..\:/Users/dpcha/Desktop/Splitty/CS422/app/src/main/res/layout/scan_total_num_people.xml" value="0.3546875" />
         <entry key="..\:/Users/dpcha/Desktop/Splitty/CS422/app/src/main/res/layout/sign_up_scene.xml" value="0.3546875" />
         <entry key="..\:/Users/dpcha/Desktop/Splitty/CS422/app/src/main/res/layout/split_bill_even.xml" value="0.3546875" />
-        <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/choose_bill_enter.xml" value="0.2890625" />
-        <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/confirm_group.xml" value="0.2890625" />
-        <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/create_group_scene.xml" value="0.2890625" />
-        <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/group_list.xml" value="0.2890625" />
         <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/home_menu.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/manual_bill_enter.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/rv_item.xml" value="0.4041666666666667" />
-        <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/rv_item2.xml" value="0.2890625" />
-        <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/safety.xml" value="0.2890625" />
-        <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/scan_receipt.xml" value="0.2890625" />
         <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/sign_up_scene.xml" value="0.4041666666666667" />
         <entry key="..\:/Users/j0per/Desktop/HW/Fall 2021/Splitty-CS422/app/src/main/res/layout/split_bill_even.xml" value="0.4041666666666667" />
       </map>
