@@ -20,6 +20,9 @@
         <activity android:name=".safetyScreen"></activity>
         <activity android:name=".addTip"></activity>
         <activity android:name=".confirmGroup"></activity>
+        <activity android:name=".addFriendsToPay"></activity>
+        <activity android:name="confirmGroupToPay"></activity>
+
 
 
 

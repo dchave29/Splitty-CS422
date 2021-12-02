@@ -101,7 +101,7 @@ public class addFriendsToPay extends AppCompatActivity {
             }
             else{
                 try {
-                    Intent intent = new Intent(this, confirmGroup.class);
+                    Intent intent = new Intent(this, confirmGroupToPay.class);
                     intent.putStringArrayListExtra("list", groupList);
                     startActivity(intent);
                 }

@@ -31,29 +31,8 @@ public class scanConfirmation extends AppCompatActivity {
         });
 
         next.setOnClickListener(moment->{
-            //numPeople = findViewById(R.id.totalPeopleInput2);
-
-//            if(numPeopleS != "" || numPeopleS == null || !numPeopleS.matches(""))
-//            numPeopleS = numPeople.getText().toString();
-//
-////            if(numPeopleS != "" || numPeopleS == null || !numPeopleS.matches(""))
-//            if(!numPeopleS.matches(""))
-//                numPeepo = Integer.parseInt(numPeopleS);
-////            else
-////                numPeepo = 0;
-////            soloAmount = totalAmount / numPeepo;
-//            if(numPeopleS == null || numPeepo == 0 || numPeepo == 1 || numPeopleS.matches("")) {
-//                Toast.makeText(this, "Invalid total Number", Toast.LENGTH_LONG).show();
-//            }
-//            else
-//            {
-//                soloAmount = totalAmount / numPeepo;
-//                Log.i("checking total", String.valueOf(soloAmount));
-//                Intent intent = new Intent(this, addFriends.class);
-//                intent.putExtra("numPeople", numPeepo); //num of people
-//                intent.putExtra("soloAmount", soloAmount);
-//                startActivity(intent);
-//            }
+            Intent intent = new Intent(this, addFriendsToPay.class);
+            startActivity(intent);
         });
     }
 

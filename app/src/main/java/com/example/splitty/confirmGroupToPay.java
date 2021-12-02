@@ -1,3 +1,4 @@
+
 package com.example.splitty;
 
 import android.content.Intent;
@@ -10,7 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import java.util.ArrayList;
 
-class confirmGroupToPay extends AppCompatActivity {
+public class confirmGroupToPay extends AppCompatActivity {
 
     public ArrayList<String> myList;
 
