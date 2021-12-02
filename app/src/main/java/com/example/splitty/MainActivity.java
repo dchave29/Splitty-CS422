@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         signUpBtn.setOnClickListener(p ->{
-
+            Intent intent = new Intent(this, signUP.class);
+            startActivity(intent);
         });
     }
 
