@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,6 +12,7 @@ public class scan_Bill extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
         setContentView(R.layout.scan_receipt);
 
         Button next1 = findViewById(R.id.scanNext);
