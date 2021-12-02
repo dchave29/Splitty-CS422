@@ -61,6 +61,7 @@
         android:layout_marginEnd="44dp"
         android:layout_marginBottom="76dp"
         android:text="Custom Split"
+        android:backgroundTint="#7269F8"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
