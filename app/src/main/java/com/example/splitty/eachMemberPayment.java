@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -20,13 +21,18 @@ public class eachMemberPayment extends AppCompatActivity {
     TextView friends;
     int numArray = 0;
     TextView price;
+    String customPay = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splitconfrmed);
-        String haters = makeList();
+
         friends = findViewById(R.id.friends);
+
+        customPay = getIntent().getStringExtra("custTotal");
+
+        String haters = makeList();
 
         notifyFriends = findViewById(R.id.notifyFriends);
         continueWithPayment = findViewById(R.id.continueWthPayment);
@@ -51,7 +57,16 @@ public class eachMemberPayment extends AppCompatActivity {
     public String makeList(){
         myList = new ArrayList<>();
         myList.addAll(getIntent().getStringArrayListExtra("list"));
-        numArray = 2892 / (myList.size() + 1);
+
+        if(customPay != null && customPay.length() > 2){
+            Log.i("test", customPay);
+            numArray = Integer.valueOf(customPay) / (myList.size() + 1);
+        }
+        else{
+            numArray = 2892 / (myList.size() + 1);
+        }
+
+
 
         String result = "";
         try {

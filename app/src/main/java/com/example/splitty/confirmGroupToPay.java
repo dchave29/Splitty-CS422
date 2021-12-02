@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class confirmGroupToPay extends AppCompatActivity {
 
     public ArrayList<String> myList;
-
+    String customPay = "";
     public ArrayList<String> myList2;
 
     @Override
@@ -27,6 +27,8 @@ public class confirmGroupToPay extends AppCompatActivity {
         TextView groupList =  findViewById(R.id.groupTextView);
         String grpTxt = makeList();
         groupList.setText(grpTxt);
+
+        customPay = getIntent().getStringExtra("custTotal");
 
         Button back = findViewById(R.id.back_btn);
         Button confirm = findViewById(R.id.con_Btn);
@@ -43,6 +45,7 @@ public class confirmGroupToPay extends AppCompatActivity {
         confirm.setOnClickListener(s->{
             Intent i = new Intent(this, eachMemberPayment.class);
             i.putStringArrayListExtra("list", myList);
+            i.putExtra("custTotal",customPay);
             startActivity(i);
         });
     }

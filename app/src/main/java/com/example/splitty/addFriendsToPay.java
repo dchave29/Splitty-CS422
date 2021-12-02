@@ -24,7 +24,7 @@ public class addFriendsToPay extends AppCompatActivity {
 
     Context myContext;
     ArrayList<String> myList;
-
+    String customPay = "";
     ArrayList<String> groupList = new ArrayList<>();
 
     @Override
@@ -73,6 +73,8 @@ public class addFriendsToPay extends AppCompatActivity {
         myList = new ArrayList<>();
         myList.addAll(names);
 
+        customPay = getIntent().getStringExtra("custTotal");
+
         myContext = this;
 
         //Define the listener with a lambda and access the name of the list item from the view
@@ -103,6 +105,7 @@ public class addFriendsToPay extends AppCompatActivity {
                 try {
                     Intent intent = new Intent(this, confirmGroupToPay.class);
                     intent.putStringArrayListExtra("list", groupList);
+                    intent.putExtra("custTotal",customPay);
                     startActivity(intent);
                 }
                 catch (Exception e) {

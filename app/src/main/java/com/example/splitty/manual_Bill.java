@@ -40,7 +40,8 @@ public class manual_Bill extends AppCompatActivity {
             String totCheck = totAmount.getText().toString();
 
             checkInput(totCheck);
-            Intent intent = new Intent(this, addFriends.class);
+            Intent intent = new Intent(this, addFriendsToPay.class);
+            intent.putExtra("custTotal",totCheck );
             startActivity(intent);
         });
     }
