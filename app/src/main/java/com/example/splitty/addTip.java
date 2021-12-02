@@ -1,6 +1,8 @@
 package com.example.splitty;
+import android.content.Intent;
 import android.os.Bundle;
 import android.text.Html;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -53,10 +55,8 @@ public class addTip extends AppCompatActivity implements View.OnClickListener{
         _15button.setOnClickListener(this);
         Button _20button = findViewById(R.id._20percent);
         _20button.setOnClickListener(this);
-
-
-
-
+        Button subButton = findViewById(R.id.subButton);
+        subButton.setOnClickListener(this);
 
     }
 
@@ -82,8 +82,12 @@ public class addTip extends AppCompatActivity implements View.OnClickListener{
                 tip = getTip(your_split,0.20);
                 tip_display.setText(String.valueOf(tip));
                 break;
+            case R.id.subButton:
 
-
+                Intent intent = new Intent(this, totalBill.class);
+                intent.putExtra("totalWithTip", String.valueOf(tip + your_split));
+                startActivity(intent);
+                break;
             default:
                 break;
         }
