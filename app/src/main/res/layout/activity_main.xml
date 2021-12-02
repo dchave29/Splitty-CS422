@@ -6,24 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Splitty"
-        android:textSize="96sp"
-        android:textStyle="bold|italic"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.165" />
-
     <Button
         android:id="@+id/sign_in_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="108dp"
+        android:layout_height="48dp"
         android:layout_marginStart="152dp"
-        android:layout_marginBottom="320dp"
+        android:layout_marginBottom="280dp"
         android:text="Sign In"
         android:textAlignment="center"
         android:textSize="16sp"
@@ -33,8 +21,8 @@
 
     <Button
         android:id="@+id/sign_up_btn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
         android:layout_marginStart="152dp"
         android:layout_marginBottom="220dp"
         android:text="Sign Up"
@@ -43,5 +31,25 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="469dp"
+        android:layout_height="242dp"
+        android:layout_marginTop="125dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/zsplogo" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="449dp"
+        android:layout_height="425dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sign_up_btn"
+        app:srcCompat="@drawable/zsptri" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

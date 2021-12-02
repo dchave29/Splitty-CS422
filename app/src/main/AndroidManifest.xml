@@ -19,6 +19,9 @@
         <activity android:name=".scanConfirmation"></activity>
         <activity android:name=".safetyScreen"></activity>
         <activity android:name=".addTip"></activity>
+        <activity android:name=".confirmGroup"></activity>
+
+
 
 
         <activity

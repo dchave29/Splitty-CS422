@@ -1,7 +1,6 @@
 package com.example.splitty;
 
 import android.os.Bundle;
-import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -19,6 +18,5 @@ public class bill_Input extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
     }
-
 
 }
