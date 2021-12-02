@@ -26,7 +26,7 @@
         android:layout_marginStart="152dp"
         android:layout_marginBottom="220dp"
         android:text="Sign Up"
-        android:backgroundTint="#FF00EE"
+        android:backgroundTint="#A349A4"
         android:textAlignment="center"
         android:textSize="16sp"
         android:textStyle="bold"
