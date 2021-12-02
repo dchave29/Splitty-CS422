@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -33,6 +34,7 @@ public class manual_Bill extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.manual_bill_enter);
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
 
         totalPeople = findViewById(R.id.totalPeopleInput);
         taxAmount = findViewById(R.id.taxAmountInput);

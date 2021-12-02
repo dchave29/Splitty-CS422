@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
@@ -66,7 +67,7 @@ public class addFriends extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.create_group_scene);
-
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
         RecyclerView nameView = (RecyclerView) findViewById(R.id.recyler_view);
         groupList = new ArrayList<>();
         List<String> names = Arrays.asList("Joe Hummel", "Chris Kanich","John Bell", "Joseph Joestar","Giornnio Giovanna", "Dio Brando" , "Caesar Zeppeli", "Jean Pierre Polnareff");

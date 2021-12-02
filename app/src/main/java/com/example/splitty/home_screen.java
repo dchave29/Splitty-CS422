@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -18,7 +19,7 @@ public class home_screen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home_menu);
-
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
         // sign user options buttons
         Button addFriendsBtn = findViewById(R.id.add_friends_btn);
         Button addBillBtn = findViewById(R.id.add_bill_btn);

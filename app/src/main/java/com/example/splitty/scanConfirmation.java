@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.util.Log;
 import android.widget.Button;
 import android.widget.TextView;
@@ -19,6 +20,7 @@ public class scanConfirmation extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.scan_total_num_people);
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
 
         Button next = findViewById(R.id.button4);
         Button modify = findViewById(R.id.button3);

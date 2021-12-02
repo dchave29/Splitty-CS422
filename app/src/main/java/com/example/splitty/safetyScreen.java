@@ -2,6 +2,7 @@ package com.example.splitty;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Html;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -14,7 +15,7 @@ public class safetyScreen extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.safety);
-
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
         Intent intent = getIntent();
         String easyPuzzle = intent.getExtras().getString("namesToDisplay");
         String numPeople = intent.getExtras().getString("numPeople");

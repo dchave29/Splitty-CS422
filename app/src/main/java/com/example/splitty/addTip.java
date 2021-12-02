@@ -1,5 +1,6 @@
 package com.example.splitty;
 import android.os.Bundle;
+import android.text.Html;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -28,7 +29,7 @@ public class addTip extends AppCompatActivity implements View.OnClickListener{
 
         //adding the layout from add_tip
         setContentView(R.layout.add_tip);
-
+        getSupportActionBar().setTitle(Html.fromHtml("<font color=\"black\">" + getString(R.string.app_name) + "</font>"));
 //        //Get the intent for value purposes
 //        Intent intent = getIntent();
 //        String partialTotal = intent.getExtras().getString("partialTotal");
