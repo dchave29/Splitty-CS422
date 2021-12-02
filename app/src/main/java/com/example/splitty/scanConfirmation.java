@@ -24,12 +24,12 @@ public class scanConfirmation extends AppCompatActivity {
 
         Button next = findViewById(R.id.button4);
         Button modify = findViewById(R.id.button3);
-        Button continueWithPayment = findViewById(R.id.continueWthPayment);
-
-        continueWithPayment.setOnClickListener(epic->{
-            Intent intent = new Intent(this, addTip.class);
-            startActivity(intent);
-        });
+//        Button continueWithPayment = findViewById(R.id.continueWthPayment);
+//
+//        continueWithPayment.setOnClickListener(epic->{
+//            Intent intent = new Intent(this, addTip.class);
+//            startActivity(intent);
+//        });
         modify.setOnClickListener(bruh->{
             Intent intent = new Intent(this, manual_Bill.class);
             startActivity(intent);

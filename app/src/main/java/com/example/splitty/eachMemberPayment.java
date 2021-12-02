@@ -1,5 +1,6 @@
 package com.example.splitty;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Button;
 import android.widget.TextView;
@@ -40,8 +41,9 @@ public class eachMemberPayment extends AppCompatActivity {
         });
 
         continueWithPayment.setOnClickListener(c->{
-
-
+            Intent intent = new Intent(this, addTip.class);
+            intent.putExtra("yermum",String.valueOf(numArray));
+            startActivity(intent);
         });
     }
 

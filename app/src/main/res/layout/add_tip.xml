@@ -85,7 +85,7 @@
         app:layout_constraintEnd_toEndOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/ligmaL"
         android:layout_width="59dp"
         android:layout_height="50dp"
         android:layout_marginStart="40dp"
